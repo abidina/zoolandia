@@ -11,5 +11,11 @@ namespace Zoolandia.Species
         {
             return "GrrrrrrAAA!";
         }
+        
+        public override string Eat(int numberOfFoods)
+        {
+            string animalEat = base.Eat(1);
+            return animalEat + " If you're not careful, he'll eat YOU.";
+        }
     }
 }

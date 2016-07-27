@@ -6,9 +6,10 @@ namespace Zoolandia.Species
         {
 
         }
-        public string Eat()
+        public override string Eat(int numberOfFoods)
         {
-            return "I don't know what I ate, but it was good!";
+            string animalEat = base.Eat(2);
+            return animalEat + "Nom nom nom";
         }
         
     }
