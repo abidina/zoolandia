@@ -8,6 +8,11 @@ namespace Zoolandia
         {
             this.Name = name;
         }
+        public virtual string Eat(int numberOfFoods) 
+        {
+            return "YUM!";
+        }
+
         public string Welcome (string name)
         {
             this.Name = name;

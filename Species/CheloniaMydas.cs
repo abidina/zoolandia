@@ -10,5 +10,10 @@ namespace Zoolandia.Species
         {
             return "*whoosh*";
         }
+        public override string Eat(int numberOfFoods)
+        {
+            string animalEat = base.Eat(2);
+            return animalEat + " I love eating strawberries.";
+        }
     }
 }
