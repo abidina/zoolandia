@@ -4,9 +4,10 @@ namespace Zoolandia
 {
     public abstract class Animal
     {
-        public Animal (string name)
+        public Animal (string name, int c)
         {
             this.Name = name;
+            this.color = color;
         }
         public virtual string Eat(int numberOfFoods) 
         {
@@ -25,6 +26,18 @@ namespace Zoolandia
         }
         
         private string _name;
+        private int c;
+        public int color 
+        {
+            get 
+            {
+                return c;
+            }
+            set 
+            {
+                c = value;
+            }
+        }
         public string Name
         {
             get
