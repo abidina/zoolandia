@@ -2,7 +2,7 @@ namespace Zoolandia.Species
 {
     public class CheloniaMydas : Animal
     {
-        public CheloniaMydas(string name) : base(name)
+        public CheloniaMydas(string name) : base(name, 10)
         {
 
         }

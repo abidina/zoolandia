@@ -2,9 +2,9 @@ namespace Zoolandia.Species
 {
     public class AilurusFulgens : Animal
     {
-        public AilurusFulgens(string name) : base(name)
+        public AilurusFulgens(string name, int color) : base(name, 9)
         {
-
+            this.color = color;
         }
         public override string Eat(int numberOfFoods)
         {

@@ -2,7 +2,7 @@ namespace Zoolandia.Species
 {
     public class DicerosBicornis : Animal
     {
-        public DicerosBicornis(string name) : base(name)
+        public DicerosBicornis(string name) : base(name, 2)
         {
 
         }

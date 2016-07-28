@@ -9,7 +9,8 @@ namespace Zoolandia
         {
             Console.WriteLine("Hello World!");
 
-            AilurusFulgens RedPanda = new AilurusFulgens("Red Panda");
+            AilurusFulgens RedPanda = new AilurusFulgens("Red Panda", 9);
+            Console.WriteLine(RedPanda.Name);
             RedPanda.Name = "Red Panda";
             string response = RedPanda.Eat(2);
             Console.WriteLine(RedPanda.Name + " says " + response);
